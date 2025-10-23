@@ -1,14 +1,14 @@
 # Atualização de CRM - Workflow Automatizado com S3 e Lambda
 
-Este repositório contém um workflow serverless na AWS, baseado nos recursos S3 e Lambda, que consolida os conhecimentos adquiridos e retrata a automatização do processamento de imagens enviadas por um cliente através de um chatbot e a subsequente atualização no CRM.
+Este repositório contém um workflow baseado nos recursos Amazon S3 e AWS Lambda. Ele consolida os conhecimentos adquiridos e demonstra a automatização do processamento de imagens enviadas por um cliente através de um chatbot e a subsequente atualização no CRM.
 
-O objetivo principal é garantir que, assim que um cliente fizer o upload de uma imagem, o executivo de vendas correspondente receba uma notificação imediata, com a imagem já processada e otimizada, diretamente no seu ambiente de CRM (HubSpot).
+O objetivo principal é garantir que, assim que um cliente fizer o upload de uma imagem, o executivo de vendas correspondente receba uma notificação imediata, com a imagem já processada e otimizada, diretamente no seu ambiente de CRM.
 
 ## Arquitetura (AWS e CRM)
 
 A arquitetura é baseada em eventos, utilizando o Amazon S3 como gatilho para a execução da função AWS Lambda.
 
-## O que é o AWS S3?
+## O que é o Amazon S3?
 É um serviço de armazenamento de objetos na nuvem que permite guardar e recuperar qualquer quantidade de dados, com alta escalabilidade, disponibilidade e segurança.
 
 - Armazenamento de objetos: Os dados (como imagens, vídeos, documentos e backups) são armazenados como "objetos" em um formato de armazenamento não hierárquico. 

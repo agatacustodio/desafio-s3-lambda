@@ -1,6 +1,6 @@
 # Atualização de CRM - Workflow Automatizado com S3 e Lambda
 
-Este repositório contém um workflow serverless na AWS que automatiza o processamento de imagens enviadas por um cliente através de um chatbot e a subsequente atualização no HubSpot.
+Este repositório contém um workflow serverless na AWS, baseado nos recursos S3 e Lambda, que consolida os conhecimentos adquiridos e retrata a automatização do processamento de imagens enviadas por um cliente através de um chatbot e a subsequente atualização no HubSpot.
 
 O objetivo principal é garantir que, assim que um cliente fizer o upload de uma imagem, o executivo de vendas correspondente receba uma notificação imediata, com a imagem já processada e otimizada, diretamente no seu ambiente de CRM (HubSpot).
 
